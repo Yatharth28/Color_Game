@@ -1,0 +1,80 @@
+body {
+  background-color: #ebe6e6;
+  margin: 0;
+  font-family: 'Arvo', serif;
+}
+
+h1{
+  color: #fbe555;
+  text-align: center;
+  margin: 0;
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+  font-weight: normal;
+  background-color: #fa1616;
+  text-transform: uppercase;
+  line-height: 1.1;
+  padding: 30px 0;
+}
+
+button{
+  font-family: 'Arvo', serif;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  color: steelblue;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: inherit;
+  outline: none;
+  transition: all 0.3s;
+  /* for browser support */
+  -o-webkit-transition: all 0.3s;
+  -o-moz-transition: all 0.3s;
+}
+
+button:hover{
+  color: white;
+  background: steelblue;
+}
+
+.selected{
+  color: white;
+  background: steelblue;
+}
+
+.square {
+  width:30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 50%;
+  transition: background 0.6s;
+  /* for browser support */
+  -o-webkit-transition: background 0.6s;
+  -o-moz-transition: background 0.6s;
+}
+
+.container{
+  max-width: 600px;
+  margin: 25px auto;
+}
+
+
+#stripe{
+  background-color: #fff;
+  height: 30px;
+  text-align: center;
+  color: black;
+}
+
+#colorDisplay{
+  font-size: 200%;
+}
+
+#message{
+  display: inline-block;
+  width: 30%;
+}
